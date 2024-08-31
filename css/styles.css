@@ -8,13 +8,13 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #582fbf;
     padding: 20px;
     color: white;
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #582fbf;
     padding: 10px;
     color: white;
     position: fixed;
@@ -23,7 +23,7 @@ footer {
 }
 
 img {
-    width: 300px;
+    width: 500px;
     height: auto;
     margin-top: 20px;
 }
