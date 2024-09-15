@@ -1,4 +1,39 @@
-<h1>Assignment 4 is launching soon!</h1>
-<a href="../index.html">Home</a>
-<div id="navbar"></div>
-<script src="../js/script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style src="../css/styles.css"></style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 4</h1>
+        <div id="navbar"></div>
+        <script src="navScript.js"></script>
+    </header>
+
+    <h1>Compound Interest Calculator</h1>
+    <form id="interestForm">
+        <label for="principal">Principal:</label>
+        <input type="number" id="principal" name="principal" value=" "><br><br>
+    
+        <label for="rate">Annual Interest Rate (%):</label>
+        <input type="number" id="rate" name="rate" value=" "><br><br>
+    
+        <label for="compounds">Compounds per year (n):</label>
+        <input type="number" id="compounds" name="compounds" value=" "><br><br>
+    
+        <label for="years">Time in years:</label>
+        <input type="number" id="years" name="years" value=" "><br><br>
+    
+        <button type="button" onclick="calculate()">Calculate</button>
+        <button type="button" onclick="clearForm()">Clear</button>
+
+    </form>
+    <canvas id="interestChart"></canvas>
+    <script src="../js/script.js"></script>
+    <div id="results"></div>
+</body>
+</html>
